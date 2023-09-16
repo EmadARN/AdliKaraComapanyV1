@@ -1,0 +1,104 @@
+/* Box submit & Login*/
+.box h2 {
+  margin: 0px 0px 30px;
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+  color: rgba(240, 164, 0, 1);
+}
+.box .inputbox {
+  position: relative;
+}
+.box .inputbox input {
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+}
+
+.box input[type="button"] {
+  background: transparent;
+
+  outline: none;
+  border: none;
+  font-size: 16px;
+  margin: 5px 0 0 60px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 0px 2500px 0px 2500px;
+}
+.rps {
+  margin-top: 15px;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.rps a {
+  text-decoration: none;
+}
+.rps a:hover {
+  color: rgb(255, 0, 0) !important;
+  transition: 1s;
+}
+.su:hover {
+  transform: scale3d(1.4, 1.05, 2);
+  transition: 0.8s;
+}
+.rpsu {
+  margin-top: 30px;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+.rpsuColor1 {
+  color: rgba(240, 164, 0, 1);
+}
+.rpsuColor1Btn1 {
+  background-color: rgba(240, 164, 0, 1) !important;
+}
+.rpsuColor1Btn2 {
+  background-color: #2f2f2f !important;
+}
+.rpsuColor2 {
+  color: #2f2f2f !important;
+}
+.rpsu:hover {
+  color: rgb(30, 255, 0) !important;
+  transition: 0.5s;
+  letter-spacing: 3px;
+}
+/* inner-flip-card */
+.front-face,
+.inner-flip-card,
+.back-face {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.inner-flip-card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 2s ease;
+  text-align: center;
+}
+
+.back-face,
+.front-face {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back-face {
+  transform: rotateY(180deg);
+}

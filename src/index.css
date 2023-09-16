@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Yekan", sans-serif;
+ 
+}
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/Yekan.ttf");
+}
+@font-face {
+  font-family: "Lalezar";
+  src: url("./assets/Lalezar-Regular.ttf");
+}

@@ -1,0 +1,127 @@
+.Custome-NavBar {
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+  height: 70px;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+.active-Header {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1253' height='70' preserveAspectRatio='none' viewBox='0 0 1253 70'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2527%26quot%3b)' fill='none'%3e%3crect width='1253' height='70' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient2528%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1224.1120016203186 53.66292710547029L1209.929841197357 38.454422027335866 1208.903496542184 67.84508752843188z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M894.8158045956407 17.286278379945877L900.6824738942234 12.865425969385077 891.1178606290908 6.275848226791254z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M740.2457113546634 36.48473842470033L743.6295624903236 29.228046246302878 731.0525986548973 27.78061563201129z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M611.5273699926096 55.75864689586987L593.8612820125612 58.24145364651176 614.0101767432515 73.42473487591823z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1242.4324326209703 37.575809751839905L1236.7712304412523 30.06314071509892 1228.3328279759999 42.311278503046445z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M156.47549751280428 58.86236440889694L138.52153475411725 50.08444101156774 139.43584163107246 67.53045550527965z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1030.8905369402917 38.03348277960141L1033.492460070568 27.59773909816319 1016.5378829832725 28.9127262434678z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M138.3658530339927 29.58943595245948L124.0971855395157 23.808695879377396 125.73728074075925 37.16619937316352z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M624.8813186743982 76.91265873011618L629.5036582231351 63.488409932363446 611.4570698766455 72.29031918137932z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M712.5046205238389 32.606417461239104L720.0474966552644 28.251535896296623 709.7437362421379 19.114662481629708z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2527'%3e%3crect width='1253' height='70' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2528'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(245%2c 170%2c 53%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.icon-search-custome {
+  left: 10px !important;
+  top: 4px !important;
+
+  cursor: pointer !important;
+}
+
+.icon-search-custome:hover,
+.search input:hover + .icon-search-custome {
+  animation: search 1s linear infinite alternate;
+  color: rgb(0, 0, 0) !important;
+}
+@keyframes search {
+  0% {
+    transform: rotatez(20deg);
+  }
+  100% {
+    transform: rotatez(-20deg);
+  }
+}
+@media screen and (max-width: 992px) {
+  .custome-size {
+    margin-top: 40px;
+    flex-direction: column;
+    padding-right: 20px;
+  }
+  .border-bott1 {
+    width: 5px;
+    height: 2px;
+    position: relative;
+    top: -4px;
+    left: -52px;
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.71, 0.27);
+  }
+
+  #a1:hover ~ .border-bott1 {
+    transform: scaleX(15) translateX(2px);
+    background-color: rgb(248, 248, 248);
+  }
+  #a2:hover + .border-bott2 {
+    transform: scaleX(15) translateX(1px);
+    background-color: rgb(248, 248, 248);
+  }
+  #a3:hover + .border-bott3 {
+    transform: scaleX(5) translateX(1px);
+    background-color: rgb(248, 248, 248);
+  }
+  .border-bott2 {
+    width: 5px;
+    height: 2px;
+
+    position: relative;
+    top: -4px;
+    left: -48px;
+    transition: all 0.5s ease-in-out;
+  }
+  .border-bott3 {
+    width: 5px;
+    height: 2px;
+    position: relative;
+    top: -4px;
+    left: -12px;
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.71, 0.27);
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .border-bott1 {
+    width: 5px;
+    height: 2px;
+    position: relative;
+    top: 35px;
+    left: 15px;
+    transition: all 0.4s cubic-bezier(0.25, 0.1, 0.71, 0.27);
+  }
+
+  #a1:hover ~ .border-bott1 {
+    transform: scaleX(15) translateX(2px);
+    background-color: rgb(248, 248, 248);
+  }
+  #a2:hover + .border-bott2 {
+    transform: scaleX(17) translateX(1.2px);
+    background-color: rgb(248, 248, 248);
+  }
+  #a3:hover + .border-bott3 {
+    transform: scaleX(7) translateX(1px);
+    background-color: rgb(248, 248, 248);
+  }
+  .border-bott2 {
+    width: 5px;
+    height: 2px;
+
+    position: relative;
+    top: 35px;
+    left: 30px;
+    transition: all 0.4s ease-in-out;
+  }
+  .border-bott3 {
+    width: 5px;
+    height: 2px;
+    position: relative;
+    top: 35px;
+    left: 17px;
+    transition: all 0.4s cubic-bezier(0.25, 0.1, 0.71, 0.27);
+  }
+}
+@media (max-width: 992px) {
+  .custome-margin {
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+  .custome-Login-Icon {
+    color: black !important;
+  }
+}

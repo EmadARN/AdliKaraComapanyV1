@@ -1,0 +1,20 @@
+.customPlaceHold,
+.customPlaceHold1 {
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px !important;
+}
+.customPlaceHold {
+  direction: rtl !important;
+}
+.customeColorBtn {
+  background: linear-gradient(
+    0deg,
+    rgba(110, 69, 0, 1) 0%,
+    rgba(240, 164, 0, 1) 51%
+  );
+
+  color: white !important;
+}
+.customPlaceHold:focus,
+.customPlaceHold1:focus {
+  border: none !important;
+}

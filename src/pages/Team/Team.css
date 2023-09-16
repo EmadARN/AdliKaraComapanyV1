@@ -1,0 +1,16 @@
+.team-item .btn {
+  color: #1a1a1a;
+  background: #ffffff;
+}
+
+.team-item .btn:hover {
+  color: #ffffff;
+  background: #c48f39;
+}
+.customeHoverImageTeam {
+  transition: all 0.6s ease-in-out;
+}
+.customeHoverImageTeam:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}

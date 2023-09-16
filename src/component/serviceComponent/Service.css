@@ -1,0 +1,65 @@
+.service-item {
+    position: relative;
+    padding: 45px 30px;
+    background: #f6f4f9;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  .service-item:hover {
+    margin-top: -15px;
+    padding-bottom: 60px;
+    background: rgb(26, 26, 26);
+  }
+  
+  .service-item .service-icon {
+    margin: 0 auto 20px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d6efd;
+    background: url(../../assets/blob-center.png) center center no-repeat;
+    background-size: contain;
+    transition: 0.5s;
+  
+  }
+  
+  .service-item:hover .service-icon {
+    color: #04000b;
+    background: url(../../assets/blob-secondary.png) center center no-repeat;
+    background-size: contain;
+  }
+  
+  .service-item h5,
+  .service-item p {
+    transition: 0.5s;
+  }
+  
+  .service-item:hover h5,
+  .service-item:hover p {
+    color: #ffffff;
+  }
+  
+  .service-item a.btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #6222cc;
+    background: #ffffff;
+    border-radius: 40px 40px 0 0;
+    transition: 0.5s;
+    z-index: 1;
+  }
+  
+  .service-item a.btn:hover {
+    color: #04000b;
+    background: #fba504;
+  }
+  
+  .service-item:hover a.btn {
+    bottom: 0;
+  }
+  

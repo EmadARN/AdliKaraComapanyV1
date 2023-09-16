@@ -1,0 +1,10 @@
+.cards {
+  all: unset !important;
+}
+
+.hovers {
+  transition: 0.6s !important;
+}
+.hovers:hover {
+  transform: translatey(-30px) !important;
+}
